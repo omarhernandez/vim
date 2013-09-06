@@ -32,6 +32,42 @@ contrl + w + h = change window LEFT
 cntrol + w + j = change window DOWN
 cntrol + w + k = change window UP  
 
+DELETE ALL ELEMENTS BETWEEN CHAR SELECTED
+
+ci+charselected 
+
+e.g
+
+BEFORE 
+
+document.getElementById("childNode");
+
+ci":
+
+AFTER
+
+document.getElementByID():
+
+NOTE: c + i + char_or_rule only delete all 
+      elements between bigin rule  && end rule
+
+e.g 
+
+press key
+
+ci{:
+
+RESULT 
+
+	
+    {
+	delete all content here
+
+	
+    }   
+
+
+
 ;--------------------------------------
 
 GO FIRST LETTER IN DOCUMENT
