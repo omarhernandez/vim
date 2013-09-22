@@ -1,5 +1,23 @@
+
 ;-----------------------------------------
 
+IDENT JSON FILES
+
+:%!python -mjson.tool
+
+
+;-----------------------------------------
+BASH INSIDE BUFFER VIM ( BASH SHELL SPLIT WINDOW ) 
+
+
+Install -- https://code.google.com/p/conque/
+
+Open the .vba file with Vim and run the following commands:
+
+  :so %
+  :q
+
+;-----------------------------------------
 VIM CONFIG.
 
 set autoindent 
